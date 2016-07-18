@@ -22,6 +22,3 @@ build:
     # http://devcenter.wercker.com/docs/steps/index.html
     steps:
         - bundle-install
-        - script:
-            name: rspec
-            code: bundle exec rspec
